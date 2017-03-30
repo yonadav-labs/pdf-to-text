@@ -46,3 +46,4 @@ if __name__ == "__main__":
 
     tif = TextImageFile(sys.argv[1], sys.argv[2])
     tif.extract()
+    print 'Successfully extracted'
